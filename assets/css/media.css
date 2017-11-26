@@ -1,0 +1,25 @@
+body {
+    margin: 0 auto;
+    font-family: 'Muli', sans-serif;
+}
+
+body * {
+    outline: 1px dashed red;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background: #373c43;
+    color: white;
+    font-size: 20px;
+}
+
+header a {
+    color: white;
+    font-size: 17px;
+}
