@@ -1,4 +1,7 @@
-@media (max-width: 732px) {
+@media (min-width: 412px) and (max-width: 732px) {
+    header h2 {
+        margin-top: 5px;
+    }
     .nav {
         display: none;
     }
@@ -7,11 +10,107 @@
     }
     button {
         display: inline-block;
-        width: 55px;
+        width: 60px;
         background: transparent;
         border-radius: 5px;
+        outline: none;
+        border: 1px solid white;
+        margin-left: 3em;
     }
     button hr {
         margin: 8px;
+    }
+    #home h1 {
+        font-size: 6em;
+    }
+    #home h2 {
+        font-size: 3em;
+    }
+    #home img {
+        height: 700px;
+    }
+    .container {
+        margin-top: 0;
+        padding: 0;
+    }
+    .desc-pic {
+        width: 100%;
+        margin: 5em 0 0 -0.5em;
+        text-align: center;
+        padding: 0
+    }
+    .description {
+        width: 90%;
+        margin-left: 1.5em;
+    }
+    .description h2 {
+        line-height: 1;
+        font-size: 4em;
+    }
+    .description p {
+        font-size: 1.3em;
+    }
+    footer {
+        font-size: 1em;
+        padding: 3em;
+    }
+}
+
+@media (max-width: 411px) {
+    header h2 {
+        margin-top: 10px;
+        font-size: 1.3em;
+    }
+    .nav {
+        display: none;
+    }
+    .btn {
+        text-align: right;
+    }
+    button {
+        display: inline-block;
+        width: 50px;
+        background: transparent;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid white;
+        margin-left: 3em;
+    }
+    button hr {
+        margin: 8px;
+    }
+    #home h1 {
+        font-size: 5.5em;
+    }
+    #home h2 {
+        font-size: 3em;
+    }
+    #home img {
+        height: 700px;
+    }
+    .container {
+        margin-top: 0;
+        padding: 0;
+    }
+    .desc-pic {
+        width: 100%;
+        margin: 5em 0 0 -0.4em;
+        text-align: center;
+        padding: 0
+    }
+    .description {
+        width: 90%;
+        margin-left: 1em;
+    }
+    .description h2 {
+        line-height: 1;
+        font-size: 3em;
+    }
+    .description p {
+        font-size: 1.2em;
+    }
+    footer {
+        font-size: 1.1em;
+        padding: 3em;
     }
 }
